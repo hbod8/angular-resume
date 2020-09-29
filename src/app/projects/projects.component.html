@@ -1,0 +1,11 @@
+<main>
+  <section class="sites">
+    <div *ngFor="let website of websites">
+      <a [href]="website.url">
+        <h3>{{website.name}} <i class="fas fa-external-link-alt"></i></h3>
+      </a>
+      <p>{{website.description}}</p>
+      <p>{{website.datecreated}}</p>
+    </div>
+  </section>
+</main>

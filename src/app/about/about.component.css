@@ -1,0 +1,18 @@
+/* Slideshow */
+
+.images {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .images div {
+    margin: 2em;
+  }
+  
+  .images div img {
+    max-width: 400px;
+    height: auto;
+  }
