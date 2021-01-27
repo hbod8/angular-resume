@@ -1,0 +1,19 @@
+{
+  "name": "harry.technology",
+  "version": "1.0.0",
+  "description": "Webapp for Harry Saliba's resume.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbod8/harry.technology.git"
+  },
+  "author": "Harry Saliba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbod8/harry.technology/issues"
+  },
+  "homepage": "https://github.com/hbod8/harry.technology#readme"
+}
