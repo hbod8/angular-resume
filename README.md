@@ -1,7 +1,5 @@
 # HarryTechnology
 
-This project shpuld create a docker image of a simple single page application in nginx.  It is designed to act as a resume for Harry Saliba.
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
 ## Development server
