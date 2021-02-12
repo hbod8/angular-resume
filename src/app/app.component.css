@@ -13,9 +13,9 @@
     padding: 1em;
   }
   .resume-card-container {
-    max-height: 120vh;
+    max-height: 110vh;
   }
   .interest-card-container {
-    max-height: 120vh;
+    max-height: 80vh;
   }
 }
