@@ -1,6 +1,6 @@
-# HarryTechnology
+# Angular Resume
 
-This project shpuld create a docker image of a simple single page application in nginx.  It is designed to act as a resume for Harry Saliba.
+This project is designed to create a very simple SPA that acts as a resume for the user.  This project should create a docker image of a spa application on nginx.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
@@ -20,11 +20,11 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 First, be sure to build the angular project.
 
-To build the docker image, run `docker build -t harry-technology .`
+To build the docker image, run `docker build -t angular-resume .`
 
 ## Run Docker image
 
-To run the docker image, run `docker run -d -p 80:80 harry-technology`
+To run the docker image, run `docker run -d -p 80:80 angular-resume`
 
 ## Running unit tests
 

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "harry-technology": {
+    "angular-resume": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/harry-technology",
+            "outputPath": "dist/angular-resume",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "harry-technology:build"
+            "browserTarget": "angular-resume:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "harry-technology:build:production"
+              "browserTarget": "angular-resume:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "harry-technology:build"
+            "browserTarget": "angular-resume:build"
           }
         },
         "test": {
@@ -110,15 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "harry-technology:serve"
+            "devServerTarget": "angular-resume:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "harry-technology:serve:production"
+              "devServerTarget": "angular-resume:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "harry-technology"
+  "defaultProject": "angular-resume"
 }

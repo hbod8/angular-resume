@@ -1,2 +1,2 @@
 FROM nginx
-COPY dist/harry-technology /usr/share/nginx/html
+COPY dist/angular-resume /usr/share/nginx/html
