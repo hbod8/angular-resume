@@ -1,0 +1,9 @@
+{
+  "user": {
+    "firstName": "Harry",
+    "lastName" : "Saliba",
+    "phoneNumber": "(206) 963 9898",
+    "email": "harry@harry.technology",
+    "about": "My name is Harry Saliba, I am a Software Developer with a focus on cloud based user applications. I am originally from Boston, MA, but spent the majority of my life in Seattle and Bellingham, WA."
+  }
+}
