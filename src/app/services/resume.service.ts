@@ -1,16 +1,15 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ResumeService {
 
-  public data: any;
+  constructor(private http: HttpClient) { }
 
-  constructor(private http: HttpClient) {
-    this.http.get("assets/resume.json").subscribe( data => {
-    console.log(data);
-    this.data = data;
-  });}
+  public getResumeInfo(): Observable<any> {
+    return this.http.get("assets/resume.json");
+  }
 }
