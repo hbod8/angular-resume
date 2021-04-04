@@ -12,6 +12,12 @@
     "github": "https://github.com/hbod8",
     "instagram": "https://www.instagram.com/salibaharry/"
   },
+  "colors": {
+    "background": "#1e1e1e",
+    "foreground": "#d4d4d4",
+    "itemBackground": "#1e1e1e",
+    "itemForeground": "#d4d4d4"
+  },
   "sections": [
     {
       "title": "Experience",
