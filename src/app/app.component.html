@@ -25,10 +25,11 @@
         </li>
       </ul>
       <div class="d-flex flex-row">
-        <a *ngIf="resumeInfo.user.linkedin" [href]="resumeInfo.user.linkedin"><i class="fab fa-linkedin m-1 text-dark"></i></a>
-        <a *ngIf="resumeInfo.user.twitter" [href]="resumeInfo.user.twitter"><i class="fab fa-twitter-square m-1 text-dark"></i></a>
-        <a *ngIf="resumeInfo.user.github" [href]="resumeInfo.user.github"><i class="fab fa-github-square m-1 text-dark"></i></a>
-        <a *ngIf="resumeInfo.user.instagram" [href]="resumeInfo.user.instagram"><i class="fab fa-instagram-square m-1 text-dark"></i></a>
+        <a *ngIf="resumeInfo.user.linkedin" [href]="resumeInfo.user.linkedin"><img class="icon m-1" src="../assets/icons/linkedin-brands.svg" alt="linkdin"></a>
+        <a *ngIf="resumeInfo.user.twitter" [href]="resumeInfo.user.twitter"><img class="icon m-1" src="../assets/icons/twitter-square-brands.svg" alt="twitter"></a>
+        <a *ngIf="resumeInfo.user.github" [href]="resumeInfo.user.github"><img class="icon m-1" src="../assets/icons/github-square-brands.svg" alt="github"></a>
+        <a *ngIf="resumeInfo.user.instagram" [href]="resumeInfo.user.instagram"><img class="icon m-1" src="../assets/icons/instagram-square-brands.svg" alt="instagram"></a>
+        <!-- <a *ngIf="resumeInfo.user.instagram" [href]="resumeInfo.user.instagram"><img class="icon m-1" src="../assets/icons/print-solid.svg" alt="print"></a> -->
       </div>
     </div>
   </nav>
