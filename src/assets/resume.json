@@ -31,7 +31,7 @@
         {
           "title": "Lead Sailing Instructor",
           "organization": "Bellingham Community Boating Center",
-          "date": "Summer 2020 - Summer 2021",
+          "date": "Summer 2020 - Fall 2021",
           "description": "Created curriculum and lead lessons on multiple sailboats and for all ages."
         },
         {
@@ -68,6 +68,26 @@
           "organization": "Bainbridge High School",
           "date": "2017",
           "description": "Completed AP Computer Science."
+        }
+      ]
+    },
+    {
+      "title": "Refrences",
+      "blocks": [
+        {
+          "title": "Erik Fretheim, PhD",
+          "organization": "Western Washington University",
+          "description": "Erik.Fretheim@wwu.edu - Senior project advisor & Director of Cybersecurity Program"
+        },
+        {
+          "title": "Bryan Rust",
+          "organization": "Community Boating Center",
+          "description": "bryan@boatingcenter.org - Executive Director"
+        },
+        {
+          "title": "Nater Youngchild",
+          "organization": "Huurb LLC",
+          "description": "nater@huurb.com - CEO"
         }
       ]
     },

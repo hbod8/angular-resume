@@ -34,7 +34,7 @@
     </div>
   </nav>
   <div class="mt-5" id="about">
-    <div class="d-flex flex-column flex-lg-row align-items-center">
+    <div class="d-flex flex-column flex-wrap flex-lg-row align-items-start">
       <img *ngIf="resumeInfo.user.photo" [src]="resumeInfo.user.photo" alt="Portrait" height="200" width="200" class="img-fluid rounded-circle">
       <p *ngIf="resumeInfo.user.about" class="display-4 p-2">About Me</p>
     </div>
