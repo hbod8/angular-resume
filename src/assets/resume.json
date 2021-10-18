@@ -3,7 +3,7 @@
   "user": {
     "firstName": "Harry",
     "lastName" : "Saliba",
-    "photo": "assets/portrait.png",
+    "photo": "assets/portrait.jpg",
     "phoneNumber": "(206) 963 9898",
     "email": "harry@harry.technology",
     "about": "My name is Harry Saliba, I am a Software Developer with a focus on cloud based user applications. I am originally from Boston, MA, but spent the majority of my life in Seattle and Bellingham, WA.",
@@ -72,7 +72,18 @@
       ]
     },
     {
-      "title": "Refrences",
+      "title": "Certifications",
+      "blocks": [
+        {
+          "title": "US Sailing Small Boat Instructor Level 1",
+          "organization": "US Sailing",
+          "date": "Iss. May 2016 - Exp. May 2022",
+          "description": "Core instruction concepts such as preparing curriculum, giving presentations, and understanding student comprehension."
+        }
+      ]
+    },
+    {
+      "title": "References",
       "blocks": [
         {
           "title": "Erik Fretheim, PhD",
@@ -88,17 +99,6 @@
           "title": "Nater Youngchild",
           "organization": "Huurb LLC",
           "description": "nater@huurb.com - CEO"
-        }
-      ]
-    },
-    {
-      "title": "Certifications",
-      "blocks": [
-        {
-          "title": "US Sailing Small Boat Instructor Level 1",
-          "organization": "US Sailing",
-          "date": "Iss. May 2016 - Exp. May 2022",
-          "description": "Core instruction concepts such as preparing curriculum, giving presentations, and understanding student comprehension."
         }
       ]
     },
